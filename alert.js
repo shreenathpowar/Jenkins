@@ -1,5 +1,1 @@
-function PopUp() {
-  alert("Hello\nHow are you?");
-}
-
-PopUp();
+alert(location.hostname);
