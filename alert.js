@@ -7,4 +7,4 @@ function buildPopup() {
 
 let button = document.getElementsByClassName("jenkins-button jenkins-button--primary jenkins-!-build-color");
 console.log(button);
-button.onclick = function() { buildPopup() };
+button.addEventListener("click", buildPopup());
